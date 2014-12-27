@@ -1,0 +1,47 @@
+Terrain Types File
+Name:
+  Name of the terrain
+Enter Cost:
+  Cost to enter the terrain
+Restricted Types:
+  Unit types that cannot enter the terrain
+  Unit types are separated by commas
+
+========
+BEGIN
+========
+Name := Clear
+Enter Cost := 0
+Restricted Types := Naval
+
+Name := Paved
+Enter Cost := 0
+Restricted := Naval
+
+Name := Rough
+Enter Cost := 1
+Restricted := Naval, Wheeled
+
+Name := Light Woods
+Enter Cost := 1
+Restricted := Naval, Wheeled, VTOL, WiGE, Hover
+
+Name := Heavy Woods
+Enter Cost := 2
+Restricted := Naval, Wheeled, VTOL, WiGE, Hover
+
+Name := Water Depth 0
+Enter Cost := 0
+Restricted := Naval
+
+Name := Water Depth 1
+Enter Cost := 1
+Restricted := Infantry, Wheeled, VTOL, WiGE, Hover
+
+Name := Water Depth 2
+Enter Cost := 3
+Restricted := Infantry, Wheeled, VTOL, WiGE, Hover, Industrial Mech
+
+========
+END
+========
