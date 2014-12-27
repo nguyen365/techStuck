@@ -1,0 +1,12 @@
+#ifndef __HEX_H__
+#define __HEX_H__
+
+class hex
+{
+ private:
+  int q;
+  int r;
+ public:
+  hex();
+  hex(int iQ, int iR);
+};

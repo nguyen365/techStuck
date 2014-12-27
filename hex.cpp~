@@ -1,0 +1,7 @@
+#include "hex.h"
+
+hex::hex()
+  : q(0), r(0)
+{
+  
+}
